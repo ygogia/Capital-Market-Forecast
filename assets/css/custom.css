@@ -1,1 +1,43 @@
 /* Write your custom CSS here */
+.stocks
+{
+	font-weight:600;
+}
+.up-stock
+{
+	color:green;
+	font-weight:400; 
+	font-size:19px; 
+	float:right;
+}
+.down-stock
+{
+	color:rgb(204, 51, 0);
+	font-weight:400; 
+	font-size:19px; 
+	float:right;
+}
+.stock-indicate
+{
+	float:right; 
+	margin:3px 2px 0px 40px;
+}
+.stock-name
+{
+	color:black !important;
+	font-size:17px !important;
+}
+.none
+{
+	border:0;
+	background:white;
+	transition: 150ms linear all;
+	-webkit-transition: 150ms linear all;
+}
+.none:hover
+{
+	transform :scale(1.05);
+	-webkit-transform :scale(1.05);
+	transition: 150ms linear all;
+	-webkit-transition: 150ms linear all;
+}
